@@ -23,7 +23,7 @@ select statement
 ~~~
   <?php include 'storage.php';
  
- $result = Storage::exectute("select * from user where id = ?","o",[$id],true);
+ $result = Storage::exectute("select * from user where id = ?","s",[$id],true);
  $row = $result->fetch_assoc();
  
  ?>
